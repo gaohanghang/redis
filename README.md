@@ -2,7 +2,7 @@
 
 🍜 redis学习
 
-## 使用Spring Data Redis 操作 Redis
+## 1. 使用Spring Data Redis 操作 Redis
 
 https://github.com/gaohanghang/redis/tree/master/spring-data-redis
 
