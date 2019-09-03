@@ -2,6 +2,27 @@
 
 > 原文地址: https://juejin.im/post/5cf46fe36fb9a07ec373d730
 
+## 快速启动
+
+运行单元测试中的代码
+
+```java
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class SpringDataRedisApplicationTests {
+
+    @Autowired
+    HelloService helloService;
+
+    @Test
+    public void contextLoads() {
+        //helloService.hello();
+        helloService.hello2();
+    }
+
+}
+```
+
 在 Redis 出现之前，我们的缓存框架各种各样，有了 Redis ，缓存方案基本上都统一了，关于 Redis，松哥之前有一个系列教程，尚不了解 Redis 的小伙伴可以参考这个教程：
 
 - [Redis 教程合集](https://link.juejin.im/?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F0Bukv4bFGMWosG8SWWoDDw)
